@@ -14,11 +14,11 @@
                 <th>recovery cases</th>
            </tr>
            <tr>
-                <th>300000</th>
-                <th>1200</th>
-                <th>25000</th>
-                <th>85</th>
-                <th>1000000</th>
+                <td>300000</td>
+                <td>1200</td>
+                <td>25000</td>
+                <td>85</td>
+                <td>1000000</td>
            </tr>
     </body>
 </html>
