@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Total CovID19 cases/title>
+        <title>CovID19 data/title>
     </head>
     <body>
-        CovID19 local and global updates
+        <h1>New York State CovID19 cases</h1>
+        <table>
+            <tr>
+                <th>total positive cases</th>
+                <th>new positive cases</th>
+                <th>total death</th>
+                <th>new death</th>
+                <th>recovery cases</th>
+           </tr>
+           <tr>
+                <th>300000</th>
+                <th>1200</th>
+                <th>25000</th>
+                <th>85</th>
+                <th>1000000</th>
+           </tr>
     </body>
 </html>
