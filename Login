@@ -5,6 +5,10 @@
         <title>Login/title>
     </head>
     <body>
-        Your already a member, please login
+        <h1>Your already a member, please login</h1>
+        <Form>
+            <imput type="text" placeholder="full name" name="name">
+            <button> submit!<button>
+        </Form>
     </body>
 </html>
