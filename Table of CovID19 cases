@@ -2,9 +2,15 @@
 <html>
     <head>
         <title>CovID19 data/title>
+        <style>
+            h1 {
+            color: red;
+            text-align: center;
+               }
+        </stle>
     </head>
     <body>
-        <h1>New York State CovID19 cases</h1>
+        <h1 style="color:blue;text-align:center" New York State CovID19 cases</h1>
         <table>
             <tr>
                 <th>total positive cases</th>
