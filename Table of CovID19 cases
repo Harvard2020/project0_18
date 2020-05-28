@@ -8,6 +8,21 @@
             text-align: center;
                }
         </stle>
+        <style>
+            table {
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 50%;
+               }
+        th, td {      
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+               }
+        th {      
+            bckground-color: lightgreen;
+               }
+        </style>
     </head>
     <body>
         <h1 style="color:blue;text-align:center" New York State CovID19 cases</h1>
