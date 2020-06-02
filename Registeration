@@ -13,6 +13,22 @@
          button: hover {
             background-cpolor: orange;
             }
+         imput [type=text]{
+            background-color: red
+         }
+          imput [type=number]{
+            background-color: yellow
+         }}
+         
+         a :: before {
+            content: "last name";
+            font-weight: bold;
+            }
+            a :: before {
+            content: "First name";
+            font-weight: bold;
+            }
+         
     </style>
     </head>
     <body>
