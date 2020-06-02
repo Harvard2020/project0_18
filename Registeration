@@ -28,6 +28,27 @@
             <imput name="colore" type="radio" value="blue"> blue
             <imput name="colore" type="radio" value="other"> other
          </div>
+           <div>
+            <imput name="adress" typet="()" placeholder="address">
+            </div>
+            <div>
+            <imput name="city" List="text" placeholder="City">
+            <datasheet id="City"
+                <option value="New York"> 
+                <option value="Albany">  
+                <option value="Colonie">  
+         </div>
+           <div>
+            <imput name="State" List="text" placeholder="State">
+            <datasheet id="State"
+                <option value="New York"> 
+         </div>
+          <div>
+            <imput name="Zip Code" type="number" placeholder="Zip Code">
+            <datasheet id="Zip Code"
+                <option value="12208"> 
+                <option value="12110"> 
+         </div>
          <div>
             <imput name="country" list="countries" placeholder="country">
             <datasheet id="countries"
