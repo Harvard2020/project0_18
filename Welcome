@@ -12,6 +12,10 @@
         ul {
        colore: green
        }
+       a :: before {
+            content: "\21d2 New York State CovID19 updates";
+            font-weight: bold;
+            }
       </style>
     </head>
     <body>
