@@ -16,6 +16,25 @@
             content: "\21d2 New York State CovID19 updates";
             font-weight: bold;
             }
+       p :: selection {
+            colore: red
+            background: yellow
+            }
+       @media print{
+            .screen-only{
+            display: none;
+            }
+          }
+       @media (minimum-width: 300 px) {
+            Body {
+            background color: red;
+            }
+          }
+        @media (maximum-width: 300 px) {
+            Body {
+            background color: blue;
+            }
+          }
       </style>
     </head>
     <body>
@@ -28,6 +47,7 @@
         <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwhatsupnewp.com%2Fwp-content%2Fuploads%2F2020%2F03%2Fbanner.png&imgrefurl=https%3A%2F%2Fwhatsupnewp.com%2F2020%2F05%2Flive-blog-the-latest-local-updates-on-the-coronavirus-disease-covid-19%2F&tbnid=Rc0KQFV3kCSL3M&vet=12ahUKEwimn575s9TpAhVGNt8KHSRXBg8QMygHegUIARDQAQ..i&docid=Qpt81knOkrDkMM&w=810&h=374&q=CovID19&client=safari&ved=2ahUKEwimn575s9TpAhVGNt8KHSRXBg8QMygHegUIARDQAQ width="50%"
         <p> Breif history of cornona virisus</p>
         <p> Potential sources of CovID19</p>
+        <p class=screen-only> this paragraph won't appear when you print 
         <ol>
             <Li><a href="#"> CovID19 local and global updates </a></Li>
             <Li><a href="#"> New York State CovID19 updates </a></Li>
