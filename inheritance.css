@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>xxxxxxxxx</title>
+<link rel="stylesheet" href="inheritance.css";
+</head>
+<body>
+  <div class="sucess" this is a success message. </div>
+  <div class="warning" this is a warning message. </div>
+  <div class="error" this is a error message. </div>
+  </body>
+  </html>
+  
+%message{
+  font-family: sans sherif;
+  font-size: 10px;
+  font-weight: bold;
+  border: 1px solid: black;
+  padding: 20px;
+  margin: 20px;
+    }
