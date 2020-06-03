@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Welcome to CovID19 Page/title>
+        <meta name="vewport" content="width=device-width, initial scale 1.0">
       <style>
       ol {
         colore: red
@@ -25,21 +26,31 @@
             display: none;
             }
           }
-       @media (minimum-width: 300 px) {
+       @media (minimum-width: 500 px) {
             Body {
             background color: red;
             }
           }
-        @media (maximum-width: 300 px) {
+        @media (maximum-width: 499 px) {
             Body {
             background color: blue;
+            }
+          }
+           @media (minimum-width: 500 px) {
+             h1 :: before {
+            content: "CovID19 local and global updates!";
+            }
+          }
+        @media (maximum-width: 499 px) {
+           h1 :: before {
+            content: "Covid19!";
             }
           }
       </style>
     </head>
     <body>
         <h1> CovID19 local and global updates </h1>
-        <h1> New York State CovID19 updates </h1>
+        <h2> New York State CovID19 updates </h1>
         <h2> CovID19 updates by county </h2>
         <h2> General CDC guidelines </h2>
         <h3> CDC guidelines for reopening </h2>
