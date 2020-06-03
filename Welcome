@@ -4,14 +4,17 @@
         <title>Welcome to CovID19 Page/title>
         <meta name="vewport" content="width=device-width, initial scale 1.0">
       <style>
+      $color: red
       ol {
-        colore: red
+        font-size: 14px;
+        color: $color
         }
        Li {
-       colore: blue
+       font-size: 18px;
+       color: blue
        }
         ul {
-       colore: green
+       color: $color
        }
        a :: before {
             content: "\21d2 New York State CovID19 updates";
