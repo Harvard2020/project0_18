@@ -2,7 +2,16 @@
 <html>
     <head>
         <title>CovID19 data/title>
+        <meta name="vewport" content="width=device-width, initial scale 1.0">
         <style>
+            .grid{
+            background-color:green;
+            disply: grid;
+            padding: 20px;
+            grid-column-gap: 20px;
+            grid-raw-gap: 10px;
+            grid-template-columns: 200px, auto, auto;
+            }
             h1 {
             color: red;
             text-align: center;
