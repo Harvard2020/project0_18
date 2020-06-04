@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>Welcome to CovID19 Page/title>
+       <meta name="vewport" content="width=device-width, initial scale 1.0">
+     <style>
+     $color: red
+     ol {
+       font-size: 14px;
+       color: $color
+       }
+      Li {
+      font-size: 18px;
+      color: blue
+      }
+       ul {
+      color: $color
+      }
+      a :: before {
+           content: "\21d2 New York State CovID19 updates";
+           font-weight: bold;
+           }
+      p :: selection {
+           colore: red
+           background: yellow
+           }
+      @media print{
+           .screen-only{
+           display: none;
+           }
+         }
+      @media (minimum-width: 500 px) {
+           Body {
+           background color: red;
+           }
+         }
+       @media (maximum-width: 499 px) {
+           Body {
+           background color: blue;
+           }
+         }
+          @media (minimum-width: 500 px) {
+            h1 :: before {
+           content: "CovID19 local and global updates!";
+           }
+         }
+       @media (maximum-width: 499 px) {
+          h1 :: before {
+           content: "Covid19!";
+           }
+         }
+     </style>
+   </head>
+   <body>
+       <h1> CovID19 local and global updates </h1>
+       <h2> New York State CovID19 updates </h1>
+       <h2> CovID19 updates by county </h2>
+       <h2> General CDC guidelines </h2>
+       <h2> local guidelines</h2>
+       <h3> CDC guidelines for reopening </h2>
+       <img src="covid19.jpg height="700" width="300">
+       <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwhatsupnewp.com%2Fwp-content%2Fuploads%2F2020%2F03%2Fbanner.png&imgrefurl=https%3A%2F%2Fwhatsupnewp.com%2F2020%2F05%2Flive-blog-the-latest-local-updates-on-the-coronavirus-disease-covid-19%2F&tbnid=Rc0KQFV3kCSL3M&vet=12ahUKEwimn575s9TpAhVGNt8KHSRXBg8QMygHegUIARDQAQ..i&docid=Qpt81knOkrDkMM&w=810&h=374&q=CovID19&client=safari&ved=2ahUKEwimn575s9TpAhVGNt8KHSRXBg8QMygHegUIARDQAQ width="50%"
+       <p> Breif history of cornona virisus</p>
+       <p> Potential sources of CovID19</p>
+       <p class=screen-only> this paragraph won't appear when you print
+       <ol>
+           <Li><a href="#"> CovID19 local and global updates </a></Li>
+           <Li><a href="#"> New York State CovID19 updates </a></Li>
+           <ul>
+               <Li><a href="#"> CovID19 updates by county </a></Li>
+               <Li><a href="#"> General CDC guidelines </a></Li>
+           </ul>
+           <Li><a href="#"> Tips </a></Li>
+        </ol>
+
+  </body>
+</html>
