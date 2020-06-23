@@ -3,6 +3,7 @@
 <html>
     <head>
         <title>Welcome to COVID-19 Page</title>
+	    <meta charset= UTF-8">
         <meta name="vewport" content="width=device-width, initial scale 1.0">
 	
 	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -243,6 +244,21 @@ img {
   padding-left: 20px;
   padding-right: 20px;
 }
+				    
+.box{
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    }
+    .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 40%; 
+        text-align: center;
+        width: 100%; 
+    }
 	    
 	    </style>
     </head>
@@ -265,15 +281,21 @@ img {
 		</div>
 
 </div>
-            
+													  
+  <div class="box">
+        <img src="https://raw.githubusercontent.com/Harvard2020/project0/master/Images11/covid-19-2.jpg" alt="COVID-19">
+        <div class="text">
+            <h1>The new corona virus 19 was reported officially in China last Decenmber 2019</h1>
+        </div>
+    </div>          
 <div class="container">
 				
-			<img src="https://raw.githubusercontent.com/Harvard2020/project0/master/Images11/covid-19-2.jpg"
+			<img src="https://raw.githubusercontent.com/Harvard2020/project0/master/Images11/covid-19-2.jpg">
 			<button class="btn"> The new corona virus 19 was reported officially in China last Decenmber 2019</button> 
 			<button class="btn">  The WHO decided to call it COVID-19</button> 
     			<button class="btn"> It is part of the retro-virus group. It means that they don't have DNA </button> 
   			<button class="btn"> COVID-19 uses RNA as a source of genetic material </button>
-			<button class="btn"> What makes COVID-19 differents than other corona viruses</button> />
+			<button class="btn"> What makes COVID-19 differents than other corona viruses</button> 
 </div>
 
 </div>
