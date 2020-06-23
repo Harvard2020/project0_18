@@ -247,15 +247,24 @@ img {
 				    
 .box{
         position: relative;
-        display: inline-block; /* Make the width of box same as image */
+        display: inline-block;
+	top: 30%;
     }
+.text{
+	position: relative;
+        display: inline-block;
+	left: 0;
+        right: 0;
+        top: 20%; 
+        text-align: center;
+        width: 100%;
+	Color: blue;			    
     .box .text{
         position: absolute;
         z-index: 999;
         margin: 0 auto;
         left: 0;
-        right: 0;
-        top: 20%; 
+        right: 0; 
         text-align: center;
         width: 100%; 
     }
@@ -285,7 +294,7 @@ img {
   <div class="box">
         <img src="https://raw.githubusercontent.com/Harvard2020/project0/master/Images11/covid-19-2.jpg" alt="COVID-19">
         <div class="text">
-            <h1>The new corona virus 19 was reported officially in China last Decenmber in 2019</h1>
+            <h1>The new corona virus 19 was reported officially in China last December 2019</h1>
         </div>
     </div>          
 <div class="container">
