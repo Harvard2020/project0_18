@@ -69,16 +69,7 @@
 		.btn: hover {
   			background-color: #448CDD;
 			}
-		 @media (min-width: 500px) {
-              h2::before {
-                 content: "Local and global COVID-19 update";
-                }
-          }
-           @media (max-width: 499px) {
-              h2::before {
-                 content: "COVID-19 Update";
-                }
-          }
+		
                .banner {
   		width: 100%;
  		height: auto;
@@ -100,7 +91,16 @@
     			margin-right: 25px;
 			margin-top: 100px;
    	} 
-     
+      @media (min-width: 500px) {
+              h2::before {
+                 content: "Local and global COVID-19 update";
+                }
+          }
+           @media (max-width: 499px) {
+              h2::before {
+                 content: "COVID-19 Update";
+                }
+          }
 					   
 .round-button {
    	width: 20%;
