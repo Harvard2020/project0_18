@@ -16,7 +16,16 @@
 
         	background-repeat: repeat-y;
       }
-       		
+       			 @media (min-width: 500px) {
+              h2::before {
+                 content: "Local and global COVID-19 update";
+                }
+          }
+       @media (max-width: 499px) {
+              h2::before {
+                 content: "COVID-19 Update";
+                }
+          }
 	      .container {
 		position: absolute;
 		height: auto;
@@ -113,16 +122,7 @@
    	} 
 	
      		
-		 @media (min-width: 500px) {
-              h2::before {
-                 content: "Local and global COVID-19 update";
-                }
-          }
-       @media (max-width: 499px) {
-              h2::before {
-                 content: "COVID-19 Update";
-                }
-          }
+	
 		
                	   
 .round-button {
