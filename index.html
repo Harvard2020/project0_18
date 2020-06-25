@@ -16,15 +16,7 @@
 
         	background-repeat: repeat-y;
       }
-       			 @media (min-width: 500px) {
-              h2::before {
-                 content: "Local and global COVID-19 update";
-                }
-          }
-       @media (max-width: 499px) {
-              h2::before {
-                 content: "COVID-19 Update";
-                }
+       			
           }
 	      .container {
 		position: absolute;
@@ -121,7 +113,15 @@
 			margin-top: 100px;
    	} 
 	
-     		
+     		 @media (min-width: 500px) {
+              p::before {
+                 content: "Local and global COVID-19 update";
+                }
+          }
+       @media (max-width: 499px) {
+              p::before {
+                 content: "COVID-19 Update";
+                }
 	
 		
                	   
@@ -299,7 +299,7 @@ img {
 
 <div>
     	<div class="banner">
-                <h2> </h2> 
+                <p> </p> 
              
 		<div class "container">
         		<div class="btn">
